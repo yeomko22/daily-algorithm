@@ -30,3 +30,10 @@
 	<li><code>-1000 &lt;= targetSum &lt;= 1000</code></li>
 </ul>
 </div>
+
+
+### My Solution
+- I solved it through dfs using recursion method.
+- Passing current node and cumulated sum to the recursion method. Recursion stops when the cumulated sum is equal to targetSum and the node has no children.
+
+
