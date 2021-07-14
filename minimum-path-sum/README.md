@@ -26,3 +26,10 @@
 	<li><code>0 &lt;= grid[i][j] &lt;= 100</code></li>
 </ul>
 </div>
+
+### My Solution
+- I solved it using dynamic programming.
+- First, make matrix to save minimum path to certain index i, j.
+- From the first row and column, fill the path sum values.
+- In order to get minimum path, only move to right or down is allowed. So using dp matrix, fill the rest of values.
+- Return minimum path sum as the answer.
