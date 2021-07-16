@@ -25,3 +25,10 @@
 	<li><code>0 &lt;= nums[i] &lt;= 1000</code></li>
 </ul>
 </div>
+
+### My Solution
+- First, sort the given nums array
+- start from index 2, pick l, r index.
+- if nums[l] + nums[r] > nums[i], it can be a valid triangle. index between l and r is greater than nums[l] so all nums between l and r are also valid.
+- if valid triangle, move r to left. else move l to right.
+- keep going until l > r
