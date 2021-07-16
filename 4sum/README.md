@@ -30,3 +30,8 @@
 	<li><code>-10<sup>9</sup> &lt;= target &lt;= 10<sup>9</sup></code></li>
 </ul>
 </div>
+
+### My Solution
+- Applied 2-pointer method which can solve 3-Sum problem.
+- Using nested for-loop, I could solve 4-Sum problem just like solving 3-Sum problem.
+- timecomplexity: O(n^2)
