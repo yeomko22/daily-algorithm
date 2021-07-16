@@ -35,3 +35,8 @@ Note that you are allowed to reuse a dictionary word.
 	<li>All the strings of <code>wordDict</code> are <strong>unique</strong>.</li>
 </ul>
 </div>
+
+### My Solution
+- It's very hard to approach this problem using dp.
+- At first, I solved it using dfs but failed to pass the time limits.
+- After I noticed that it can solved with dp, it was easy.
