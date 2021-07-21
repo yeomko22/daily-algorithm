@@ -27,3 +27,8 @@
 	<li><code>-100 &lt;= Node.val &lt;= 100</code></li>
 </ul>
 </div>
+
+## My Solution
+- I solved it using dfs implemented with recursive function.
+- first visit the leftside nodes first and record the last visited node value into a dictionary
+- When visit a node in the same level, update the value in the dictionary.
